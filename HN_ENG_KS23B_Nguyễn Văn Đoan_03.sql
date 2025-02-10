@@ -1,15 +1,3 @@
-create database hackathon;
- use hackathon;
-
--- thử sjshgfasfhdsfdgsjdfs
- 
- -- Phần 1:
- -- Câu 2:
- create table tbl_departments(
-	department_id int primary key auto_increment,
-    department_name varchar(100) not null,
-    manager_id int
- );
 
  create table tbl_employees(
 	employee_id int primary key auto_increment,
